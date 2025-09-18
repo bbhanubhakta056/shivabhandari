@@ -1,5 +1,5 @@
 <template>
-  <div class="font-sans text-gray-800">
+  <div class="text-gray-800">
     <!-- Hero Section -->
     <section class="relative w-full h-100">
       <img
@@ -10,13 +10,13 @@
     </section>
 
     <!-- Introduction Section -->
-    <section id="intro" class="py-16 px-6 md:px-20 bg-green-100 text-center">
-      <div class="flex flex-col items-center bg-white rounded-lg shadow-md p-4 justify-center text-center mb-12">
-        <h1 class="text-5xl font-bold mb-4">Shiva Bhandari</h1>
-        <p class="text-lg">Safer Migration Counselor at DAO Gulmi</p>
-        <p class="text-sm mt-2">DOB: 2002 Jan 17 | Address: Resunga-4, Gulmi</p>
+    <section id="intro" class="bg-green-100">
+      <div class="flex flex-col bg-green-50 shadow-md p-4 mb-12">
+        <h1 class="text-4xl font-bold">Shiva Bhandari</h1>
+        <p class="text">Counselor | Student Leader | Enterpreneur </p>
+        <p class="text-sm">Resunga - 4, Gulmi</p>
       </div>
-      <h2 class="text-3xl font-semibold mb-6">About Me</h2>
+      <h2 class="text-3xl font-semibold mb-6">Who Am I?</h2>
       <p class="max-w-3xl mx-auto text-gray-600 leading-relaxed">
         Hello! I am <span class="font-medium text-blue-600">Shiva Bhandari</span>, 
         currently working as a Safer Migration Counselor at DAO Gulmi.  
@@ -28,6 +28,10 @@
       </p>
     </section>
   </div>
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 text-center py-4">
+    <p>&copy; 2025 GTech. All Rights Reserved. <br>™ Trademark Registered</p>
+  </footer>
 </template>
 
 <script setup>
